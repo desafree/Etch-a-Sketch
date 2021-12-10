@@ -72,24 +72,24 @@ button.addEventListener('click' , () => {
 const colore = document.querySelector('.red');
 colore.addEventListener('click', (e)=> {
     console.log(e);
-    colorr = 'red';
+    colorr = e.originalTarget.innerText;
     console.log(colorr);
 })
 
 const colore1 = document.querySelector('.white');
 colore1.addEventListener('click', (e)=> {
-    colorr = 'white';
+    colorr = e.originalTarget.innerText;
     console.log(colorr);
 })
 
 const colore2 = document.querySelector('.blue');
 colore2.addEventListener('click', (e)=> {
-    colorr = "blue";
+    colorr = e.originalTarget.innerText;
     console.log(colorr);
 })
 
 const colore3 = document.querySelector('.black');
 colore3.addEventListener('click', (e)=> {
-    colorr = "black";
+    colorr = e.originalTarget.innerText;
     console.log(colorr);
 })
